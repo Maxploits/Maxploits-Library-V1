@@ -153,6 +153,83 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Reaper Hub Crack",
 	Callback = function()
-       loadstring(game:HttpGet("https://you.whimper.xyz/reaperhub"))()	;
+       loadstring(game:HttpGet("https://you.whimper.xyz/reaperhub"))()	
   	end    
-});
+})
+
+Tab:AddButton({
+	Name = "BlueRed Hub V19 Best Hub",
+	Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/e7HqxVav"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "c00lkidd Gui",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Maxploits/CoolKidLoadstring/refs/heads/main/Script",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "EpicBypassed v530",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/BigBoyTimme/My.Scripts/refs/heads/main/EpicBypassed.Updates/V5.3_OLD.NEW.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "UBG by Nexer for Slap Battles",
+	Callback = function()
+      		loadstring(game:HttpGet("https://rawscripts.net/raw/OG-LOBBY!-Slap-Battles-Ultimate-badge-hub-by-nexer-SB-23960"))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "AtherHub Premium Cracked",
+	Callback = function()
+      		loadstring(game:HttpGetAsync("https://pastebin.com/raw/cq5H6ngm"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Alchemy hub (Blox Fruit)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "BlaZe V8",
+	Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptCentral-br/HUB/refs/heads/main/HUB.md"))()	;
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Section = Tab:AddSection({
+	Name = "Credits"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+Tab:AddLabel("Powered by Maxploits Hub API.")
+
+Tab:AddLabel("UI Design by Orion Lib.")
+
+Tab:AddLabel("Scripted by Maxi_Founder.")
+
+Tab:AddLabel("Credits to all of the script publisher for Maxploits Scriot Library.");
